@@ -4,6 +4,7 @@
 static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int snap      = 50;       /* snap pixel */
+static const int user_bh            = 30;        /* 0 means that dwm will calculate bar height, >= 1 means dwm will user_bh as bar height */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
